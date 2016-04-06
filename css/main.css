@@ -1,0 +1,173 @@
+/********GENERAL********/
+
+body {
+font-family: 'Poiret+One';
+font-size: 14px;
+background: #f5fffa;
+color: #9370db;
+}
+
+#primary {
+display: inline-block;
+float: left;
+}
+
+/*****HEADER FOOTER******/
+
+#title {
+font-family: 'Tangerine';
+text-align: center;
+font-size: 50px;
+margin: 0 5px;
+line-height: 0;
+padding: 0;
+color: #9370db;
+text-decoration: none;
+}
+
+#title h2 {
+font-family: 'Alex+Brush';
+font-size: 30px;
+margin: 0;
+padding: 0;
+color: 	#dda0dd;
+}
+
+.page_title {
+font-family: 'Tangerine';
+text-align: center;
+font-size: 45px;
+}
+
+.footer {
+text-align: center;
+}
+
+.social-icon {
+max-height: 50px;
+max-width: 50px;
+margin: 0;
+padding: 0;
+}
+
+.instagram {
+max-height: 50px;
+max-width: 50px;
+}
+/********NAV*******/
+
+.vertical_nav {
+float: right;
+font-size: 35px;
+font-family: 'Libre+Baskerville';
+margin: 5px;
+padding: 5px;
+line-height: 75px;
+display: block;
+background-color: #d8bfd8;
+}
+
+.vertical_nav li {
+list-style: none;
+margin: 5px;
+}
+
+.vertical_nav li a {
+text-decoration: none;
+color: #48d1cc;
+}
+
+.vertical_nav li a:hover {
+color: 	#ba55d3;
+}
+
+.vertical_nav li a:active {
+color: 	#c71585;
+}
+/********HOME***********/
+.container {
+position: relative;
+}
+
+.container > div {
+position: absolute;
+height: 100px;
+width: 100px;
+}
+
+.container > div[data-ss-colspan="2"] { width: 210px; }
+.container > div[data-ss-colspan="3"] { width: 320px; }
+
+.container > .ss-placeholder-child {
+background: transparent;
+}
+
+.container2 {
+position: relative;
+}
+
+.container2 > div {
+position: absolute;
+height: 100px;
+width: 100px;
+}
+
+.container2 > div[data-ss-colspan="2"] { width: 210px; }
+.container2 > div[data-ss-colspan="3"] { width: 320px; }
+
+.container2 > .ss-placeholder-child {
+background: transparent;
+}
+
+.container img {
+max-width: 100px;
+max-height: 100px;
+border-radius: 20%;
+}
+
+.container2 img {
+max-width: 100px;
+max-height: 100px;
+border-radius: 20%;
+}
+
+/**********ABOUT*********/
+
+#profile-photo {
+max-width: 300px;
+max-height: 300px;
+border-radius: 10%;
+margin: 5px 5px 5px 5px;
+padding: 5px 10px;
+}
+
+#secondary {
+font-size: 18px;
+color: #663399;
+
+}
+
+
+/*********CONTACT*********/
+/********PORTFOLIO***********/
+
+.portfolio_name {
+text-align: left;
+font-family: "Alex+Brush";
+font-size: 25px;
+}
+
+.container3 {
+position: relative;
+}
+
+.container3 > div {
+border: 1px solid #333;
+position: absolute;
+max-height: 100px;
+max-width: 100px;
+}
+
+.container3 > .ss-placeholder-child {
+background: transparent;
+}
